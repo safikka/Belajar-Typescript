@@ -1,0 +1,38 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output directory
+build/
+
+# Ignore TypeScript compilation artifacts
+*.js
+*.js.map
+*.d.ts
+
+# Ignore editor and IDE files
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*.swo
+
+# Ignore environment-specific files
+.env
+.env.local
+.env.*.local
+
+# Ignore logs and debugging files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore package manager files
+package-lock.json
+yarn.lock
+
+# Ignore Mac-specific files
+.DS_Store
+
+# Ignore Visual Studio Code configuration files
+.vscode/
